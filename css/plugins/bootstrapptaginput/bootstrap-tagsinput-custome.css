@@ -1,0 +1,9 @@
+.bootstrap-tagsinput .tag {
+	font-size: 13px;
+	font-weight: normal;
+	margin: 3px 5px 3px 0px;
+	display: inline-block;
+}
+.bootstrap-tagsinput .tag [data-role="remove"] {
+    font-weight: bold;
+}

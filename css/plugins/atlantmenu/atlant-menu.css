@@ -1,0 +1,482 @@
+
+/* PAGE CONTAINER */
+.page-container {
+  width: 100%;
+  float: left;
+  min-height: 100%;
+  position: relative;
+  background: #33414e;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  /* SIDEBAR */
+  /* END SIDEBAR */
+  /* CONTENT */
+  /* END CONTENT */
+  /* RTL CONTENT MODE */
+  /* END RTL CONTENT MODE */
+}
+.page-container .page-sidebar {
+  width: 220px;
+  float: left;
+  position: relative;
+  z-index: 3;
+}
+.page-container .page-sidebar.page-sidebar-fixed {
+  position: fixed;
+}
+.page-container.page-container-wide .page-sidebar {
+  width: 50px;
+}
+
+/* NAVIGATION */
+.x-navigation,
+.x-navigation ul {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  float: left;
+  list-style: none;
+  display: block;
+  z-index: 3;
+}
+.x-navigation {
+  background: #33414e;
+  border-bottom: 1px solid #3F505F;
+  /* NAV LIST ELEMENT */
+  /* END NAV LIST ELEMENT */
+  /* NAV LIST FIRST ELEMENT */
+  /* END NAV LIST FIRST ELEMENT */
+  /* NAV HORIZONTAL MODE */
+  /* END NAV HORIZONTAL MODE */
+  /* NAV MINIMIZED MODE */
+  /* END NAV MINIMIZED MODE */
+  /* X-NAVIIGATION CUSTOM */
+  /* END X-NAVIGATION CUSTOM */
+  /* NAV SEARCH */
+  /* END NAV SEARCH */
+  /* NAV INFORMER */
+  /* END NAV INFORMER */
+}
+.x-navigation li {
+  float: left;
+  display: block;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+.x-navigation li > a {
+  display: block;
+  float: left;
+  width: 100%;
+  line-height: 19px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 15px 10px 15px 15px;
+  text-decoration: none;
+  border-top: 1px solid #3F505F;
+  border-bottom: 1px solid #222;
+  vertical-align: text-bottom;
+}
+.x-navigation li > a .fa,
+.x-navigation li > a .glyphicon {
+  color: #ffffff;
+  text-align: center;
+  width: 20px;
+  font-size: 14px;
+  margin-right: 10px;
+  vertical-align: baseline;
+  -webkit-transition: color 200ms ease;
+  -moz-transition: color 200ms ease;
+  -ms-transition: color 200ms ease;
+  -o-transition: color 200ms ease;
+  transition: color 200ms ease;
+}
+.x-navigation li > a:hover {
+  background: #3d4e5d;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.x-navigation li > a:hover .fa,
+.x-navigation li > a:hover .glyphicon {
+  color: #ffd559;
+}
+.x-navigation li > ul {
+  background: #273541;
+  max-height: 0px;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  overflow: hidden;
+}
+.x-navigation li > ul li > a {
+  color: #cccccc;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 400;
+  padding: 12px 10px;
+  border-bottom-color: #222222;
+}
+.x-navigation li > ul li > a:hover {
+  background: #23303b;
+  color: #ffffff;
+}
+.x-navigation li > ul li > a.active {
+  background: #23303b;
+  color: #ffffff;
+}
+.x-navigation li.xn-openable:before {
+  position: absolute;
+  font-family: "FontAwesome";
+  content: "\f107";
+  font-size: 14px;
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+  right: 0px;
+  top: 12px;
+  cursor: pointer;
+}
+.x-navigation li.xn-openable > .informer {
+  right: 25px;
+}
+.x-navigation li.active.xn-openable:before {
+  content: "\f106";
+}
+.x-navigation li > a.active {
+  background: #3d4e5d;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.x-navigation li > a.active .fa,
+.x-navigation li > a.active .glyphicon {
+  color: #ffd559;
+}
+.x-navigation li.active > ul {
+  max-height: 1200px;
+}
+.x-navigation li.xn-title {
+  padding: 20px 10px 10px;
+  line-height: 20px;
+  font-weight: 300;
+  font-size: 13px;
+  color: #999;
+  border-bottom: 1px solid #273541;
+}
+.x-navigation > li > a.x-navigation-control {
+  background: #e34724;
+}
+.x-navigation > li.xn-openable:before {
+  top: 15px;
+}
+.x-navigation > li > ul > li > a {
+  padding-left: 25px;
+}
+.x-navigation > li > ul > li > a:hover {
+  padding-left: 30px;
+}
+.x-navigation > li > ul > li > a.active {
+  padding-left: 30px;
+}
+.x-navigation > li > ul > li > ul > li > a {
+  padding-left: 40px;
+}
+.x-navigation > li > ul > li > ul > li > a:hover {
+  padding-left: 45px;
+}
+.x-navigation > li > ul > li > ul > li > a.active {
+  padding-left: 45px;
+}
+.x-navigation > li > ul > li > ul > li > ul > li > a {
+  padding-left: 50px;
+}
+.x-navigation > li > ul > li > ul > li > ul > li > a:hover {
+  padding-left: 55px;
+}
+.x-navigation > li > ul > li > ul > li > ul > li > a.active {
+  padding-left: 55px;
+}
+.x-navigation > li > ul > li > ul > li > ul > li > ul > li > a {
+  padding-left: 60px;
+}
+.x-navigation > li > ul > li > ul > li > ul > li > ul > li > a:hover {
+  padding-left: 65px;
+}
+.x-navigation > li > ul > li > ul > li > ul > li > ul > li > a.active {
+  padding-left: 65px;
+}
+.x-navigation > li > ul > li > ul > li > ul > li > ul > li > ul > li > a {
+  padding-left: 70px;
+}
+.x-navigation > li > ul > li > ul > li > ul > li > ul > li > ul > li > a:hover {
+  padding-left: 75px;
+}
+.x-navigation > li > ul > li > ul > li > ul > li > ul > li > ul > li > a.active {
+  padding-left: 75px;
+}
+.x-navigation > li > ul > li > ul > li > ul > li > ul > li > ul > li > ul > li > a {
+  padding-left: 80px;
+}
+.x-navigation > li > ul > li > ul > li > ul > li > ul > li > ul > li > ul > li > a:hover {
+  padding-left: 85px;
+}
+.x-navigation > li > ul > li > ul > li > ul > li > ul > li > ul > li > ul > li > a.active {
+  padding-left: 85px;
+}
+.x-navigation > li:last-child > a {
+  -moz-border-radius: 0px 0px 0px 5px;
+  -webkit-border-radius: 0px 0px 0px 5px;
+  border-radius: 0px 0px 0px 5px;
+  border-bottom: 0px;
+  border-bottom: 1px solid #222;
+}
+
+.collapse-left .x-navigation {
+  width: 50px;
+}
+.collapse-left .x-navigation li.active.xn-openable:before {
+  content: "\f106";
+}
+.collapse-left .x-navigation li.active.xn-openable:before {
+  content: "\f106";
+}
+.collapse-left .x-navigation li.xn-openable:before {
+  position: absolute;
+  font-family: "FontAwesome";
+  content: "\f107";
+  font-size: 14px;
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+  right: 0px;
+  top: 12px;
+  cursor: pointer;
+}
+.collapse-left .x-navigation .xn-text {
+  display: none;
+}
+.collapse-left .x-navigation .xn-visible {
+  display: block;
+}
+.collapse-left .x-navigation li {
+  width: auto;
+  position: relative;
+}
+.collapse-left .x-navigation li.xn-profile .profile-mini {
+  display: block;
+}
+.collapse-left .x-navigation li.xn-profile .profile:after {
+  right: 100%;
+  top: 23px;
+  border: solid transparent;
+  content: "\f106";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(0, 0, 0, 0);
+  border-right-color: #33414e;
+  border-width: 5px;
+  margin-top: -5px;
+}
+.collapse-left .x-navigation li.xn-title {
+  display: none;
+}
+.collapse-left .x-navigation li.active > ul {
+  display: block;
+}
+.collapse-left .x-navigation.x-navigation-minimized li ul {
+  top: 0px;
+  right: -160px;
+  -moz-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.1);
+}
+.collapse-left .x-navigation li ul:after {
+  right: 100%;
+  top: 23px;
+  border: solid transparent;
+  content: "\f106";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(0, 0, 0, 0);
+  border-right-color: #33414e;
+  border-width: 5px;
+  margin-top: -5px;
+}
+.collapse-left .x-navigation li ul li > a {
+  padding-left: 15px !important;
+}
+.collapse-left .x-navigation li ul li > a:hover {
+  padding-left: 20px !important;
+}
+.x-navigation.x-navigation-minimized li ul li > a.active {
+  padding-left: 20px !important;
+}
+.collapse-left .x-navigation li ul li:first-child > a {
+  -moz-border-radius: 3px 3px 0px 0px;
+  -webkit-border-radius: 3px 3px 0px 0px;
+  border-radius: 3px 3px 0px 0px;
+}
+.collapse-left .x-navigation li ul li:last-child > a {
+  border-bottom: 0px;
+  -moz-border-radius: 0px 0px 3px 3px;
+  -webkit-border-radius: 0px 0px 3px 3px;
+  border-radius: 0px 0px 3px 3px;
+}
+.collapse-left .x-navigation > li {
+  width: 100%;
+}
+.collapse-left .x-navigation > li > a {
+	padding: 15px 10px;
+	text-align: left;
+}
+.collapse-left .x-navigation > li > a .fa,
+.collapse-left .x-navigation > li > a .glyphicon {
+  margin: 0px;
+}
+.collapse-left .x-navigation > li ul {
+  width: auto;
+  position: relative;
+  overflow: visible;
+  display: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding-left: 5px;
+}
+.collapse-left .x-navigation > li li {
+  width: 100%;
+}
+.collapse-left .x-navigation > li li.xn-openable:before {
+  content: "\f105";
+}
+.collapse-left .x-navigation > li li.active.xn-openable:before {
+  content: "\f104";
+}
+.collapse-left .x-navigation > li.active:before,
+.collapse-left .x-navigation > li.xn-openable:before {
+  display: none;
+}
+.collapse-left .x-navigation .xn-search input {
+  width: 30px;
+  padding: 0px 2px 0px 28px;
+}
+.collapse-left .x-navigation .xn-search input:focus {
+  width: 200px;
+  padding: 0px 8px 0px 28px;
+}
+.collapse-left .x-navigation.x-navigation-hover li:hover > ul {
+  display: block;
+  background: #273541;
+  max-height: 1200px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  right: -150px;
+}
+.collapse-left .x-navigation.x-navigation-hover li:hover > ul:after {
+  display: none;
+}
+
+.x-navigation .xn-search {
+  padding: 10px 10px 10px 9px;
+  position: relative;
+}
+.x-navigation .xn-search input {
+  width: 200px;
+  height: 30px;
+  padding: 0px 8px 0px 28px;
+  line-height: 25px;
+  border: 1px solid #29343f;
+  background: #2d3945;
+  color: #AAA;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.x-navigation .xn-search:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 17px;
+  line-height: 28px;
+  color: #AAA;
+  left: 10px;
+  top: 10px;
+  z-index: 2;
+  cursor: pointer;
+}
+.x-navigation .xn-visible {
+  display: none;
+}
+.x-navigation .x-navigation-control {
+  position: absolute;
+  right: 0px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: none;
+}
+.x-navigation .x-navigation-control:hover {
+  background: #e0401d;
+  border-bottom: 0px;
+}
+.x-navigation .x-navigation-control:before {
+  position: absolute;
+  font-family: "FontAwesome";
+  content: "\f0c9";
+  font-size: 14px;
+  top: 14px;
+  left: 20px;
+  color: #FFF;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.x-navigation > li.xn-navigation-control {
+  display: none;
+  height: 50px;
+  border-bottom: 1px solid #2f3c48;
+}
+.x-navigation > li.xn-navigation-control .x-navigation-control:hover {
+  background: #273541;
+}
+
+/* END NAVIGATION */
+
+
+
+@media screen and (min-width: 992px) {
+.collapse-left li.active .nav{
+	position: relative;
+	left: 0px;
+	top: 0px;
+	background-color: #2F4050;
+	padding: 0px;
+	font-size: 12px;
+}
+}
+
+
+

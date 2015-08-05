@@ -1,0 +1,17 @@
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+  background: url('../../../img/plugins/chosen-sprite.png') -42px 1px no-repeat;
+}
+.chosen-container-multi .chosen-choices li.search-choice {
+  border: 1px solid #5BC0DE;
+  background-color: #5BC0DE;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #5BC0DE), color-stop(50%, #5BC0DE), color-stop(52%, #5BC0DE), color-stop(100%, #5BC0DE));
+  background-image: -webkit-linear-gradient(#5BC0DE 20%, #5BC0DE 50%, #5BC0DE 52%, #5BC0DE 100%);
+  background-image: -moz-linear-gradient(#5BC0DE 20%, #5BC0DE 50%, #5BC0DE 52%, #5BC0DE 100%);
+  background-image: -o-linear-gradient(#5BC0DE 20%, #5BC0DE 50%, #5BC0DE 52%, #5BC0DE 100%);
+  background-image: linear-gradient(#5BC0DE 20%, #5BC0DE 50%, #5BC0DE 52%, #5BC0DE 100%);
+  box-shadow: 0 0 0px white inset, 0 0px 0 rgba(0, 0, 0, 0.0);
+  color: #FFF;
+}
+.chosen-container-multi .chosen-choices {
+	border-radius: 3px;
+}

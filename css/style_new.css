@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrapper-private{
+    min-height: 100%;
+	background-color: #EDEDED;
+	padding-top: 60px;
+}
+.header .navbar {
+    height: auto;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.logo-login {
+    width: 220px;
+	margin-right: 10px;
+}
+.padding {
+    border-bottom: none;
+}
+.user-panel {
+    margin-top: 80px;
+}
+.input-group .form-control {
+    width: 150px;
+}
+.text-right .sidebar-form {
+    display: inline-block;
+}
+.header .register {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 20px;
+    background: none;
+	vertical-align: top;
+	padding-top: 20px;
+}
+.navbar-static-top{
+	display: inline-block;
+}
+.navbar-left {
+    margin-right: 0px;
+}
+#menu-private .navbar .nav > li > a:hover,
+#menu-private .navbar .nav > li > a:active,
+#menu-private .navbar .nav .open > a,
+#menu-private .navbar .nav .open > a:focus,
+#menu-private .navbar .nav .open > a:hover{
+  background: none;
+  color: #F55450;
+}
+#menu-private .navbar .nav > li > a:focus{
+	 background: none;
+}
+#menu-private .navbar-default .navbar-nav > .open > a {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset;
+}
+#menu-private .navbar .nav > li{
+	text-transform: uppercase;
+}
+#menu-private .open > .dropdown-menu {
+	text-transform: uppercase;
+	font-size: 13px
+}
+.navbar-nav > li > a {
+    padding-top: 18px;
+    padding-bottom: 18px;
+	line-height: 18px;
+}
+.text-right .sidebar-form {
+    margin: 10px;
+}
+@media screen and (max-width: 1232px) {
+#menu-private .navbar-nav li a{
+	padding-bottom: 0px;
+	padding-top: 0px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #656464;
+}	
+#menu-private .navbar-nav>li{
+	float: none;
+}
+#menu-private .nav{
+	width: 200px;
+	padding: 0px;
+	margin: 0px;
+	background-color: #eee;	
+}
+#menu-private .dropdown-menu{
+    width: auto;
+	position: static;
+	float: none;
+}
+#menu-private .navbar-default .navbar-toggle{
+	background-color: transparent;
+	border: 1px solid #999999;
+	border-radius: 4px;
+	float: right;
+	margin-bottom: 10px;
+	margin-right: 0px;
+	margin-top: 10px;
+	padding: 9px 10px;
+	position: relative;
+	display: block;
+}	
+#menu-private .navbar-collapse.collapse.in{
+	display: block!important;
+}
+#menu-private .navbar-collapse{
+	position: absolute;
+	left: 205px;
+	top: 60px;
+	z-index: 99999;
+	display: none;
+	overflow: visible !important;
+	height: auto !important;
+}
+#menu-private .navbar-collapse.collapse{
+	display: none!important;
+	height: auto!important;
+	overflow: visible!important;
+	padding-bottom: 0;
+	opacity: 9999999;
+}
+#menu-private .navbar-header {
+	margin-left: 15px;
+    float: left;
+}
+
+}
+
+@media screen and (max-width: 992px) {
+.header .navbar-btn{
+	color: #000;
+}
+.logo-login {
+    float: left;
+}
+.header .navbar-static-top {
+    display: inline-block;
+	width: auto;
+}
+.header .navbar-btn {
+    position: absolute;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color: #000;
+    font-size: 18px;
+    top: 10px;
+    display: block;
+	z-index: 99999999;
+}
+}
